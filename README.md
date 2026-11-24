@@ -1,5 +1,6 @@
 # Conformal Risk Control & Out-of-Distribution Calibration Across Seven Molecular Representation Families for ADMET & Virtual Screening
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24496512.svg)](https://doi.org/10.5281/zenodo.24496512)
 [English](README.md) | [简体中文](README_zh.md) | **[Formal Academic PDF (`ADMET_Conformal_Technical_Report.pdf`)](ADMET_Conformal_Technical_Report.pdf)** | [`DIRECTION_D_EXPERIMENTAL_PLAN.md`](DIRECTION_D_EXPERIMENTAL_PLAN.md) | **[🧬 Companion Protein + Agent Suite (`flip2-plm-probing-benchmark`)](https://github.com/Der134/flip2-plm-probing-benchmark)**
 
 This repository delivers a leakage-resistant, end-to-end **Cross-Modal Conformal Uncertainty & Out-of-Distribution (OOD) Virtual Screening Benchmark** spanning **7 molecular representation families** (**2 fingerprint tree ensembles + 3 frozen Chemical Language Models + 2 pure-PyTorch 5-member GNN ensembles**) across **25 real-world molecular property and bioactivity tasks** (**all 22 official TDC `ADMET_Group` assays + 3 ChEMBL `IC50` medicinal chemistry targets**, **3 scaffold seeds each**; **51,827 globally deduplicated canonical SMILES**; **4,344 conformal evaluations**).

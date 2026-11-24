@@ -5,7 +5,8 @@ title: "Conformal Risk Control and Out-of-Distribution Calibration Across Seven 
 authors:
   - alias: "Der134"
 date-released: 2026-11-24
-version: "2.0.0"
+version: "2.0.1"
+doi: "10.5281/zenodo.24496512"
 license: MIT
 repository-code: "https://github.com/Der134/tdc-admet-ood-conformal-benchmark"
 url: "https://github.com/Der134/tdc-admet-ood-conformal-benchmark"
