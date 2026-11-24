@@ -1,0 +1,8 @@
+__pycache__/
+*.pyc
+.venv/
+tdc_admet_workspace/
+_local_test/
+*pilot_test*.ipynb
+*.tmp
+.DS_Store
