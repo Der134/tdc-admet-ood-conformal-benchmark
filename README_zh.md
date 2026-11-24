@@ -1,6 +1,6 @@
 # 方向 D：跨七大分子表征族的 ADMET 骨架 OOD 保形预测与风险可控虚拟筛选基准
 
-[English](README.md) | [简体中文](README_zh.md) | **[正式英文双栏学术 PDF 报告 (`ADMET_Conformal_Technical_Report.pdf`)](ADMET_Conformal_Technical_Report.pdf)** | [`DIRECTION_D_EXPERIMENTAL_PLAN.md`](DIRECTION_D_EXPERIMENTAL_PLAN.md) | [`COLAB_EXECUTION_HANDBOOK.md`](COLAB_EXECUTION_HANDBOOK.md)
+[English](README.md) | [简体中文](README_zh.md) | **[正式英文双栏学术 PDF 报告 (`ADMET_Conformal_Technical_Report.pdf`)](ADMET_Conformal_Technical_Report.pdf)** | [`DIRECTION_D_EXPERIMENTAL_PLAN.md`](DIRECTION_D_EXPERIMENTAL_PLAN.md) | **[🧬 姊妹篇：蛋白 FLIP2 + Agent 审计基准](https://github.com/Der134/flip2-plm-probing-benchmark)**
 
 本项目构建并完整实测了一个防泄漏、全栈可复现的**跨模态分子性质保形不确定性与 OOD 虚拟筛选基准**，覆盖 **7 大分子表征模型族**（**2 个指纹树模型 + 3 个冻结化学语言模型 CLM + 2 个纯 PyTorch 5 成员 2D GNN 深度集成**）× **25 个真实药物发现任务**（**TDC `ADMET_Group` 官方全部 22 项任务 + ChEMBL `IC50` 3 项真实药化靶点**，每任务 **3 个骨架种子**，全局去重 **`51,827` 条规范 SMILES**，共 **`4,344` 组保形评测**）。
 
